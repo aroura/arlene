@@ -1,0 +1,173 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: Raleway, sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: Raleway, sans-serif;
+}
+
+p {
+  color: #ebf0f6;
+  line-height: 1.5;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: #ebf0f6;
+}
+
+hr {
+  border-style: none none dotted none;
+  border-width: 5px;
+  color: gray;
+  width: 5%;
+}
+
+/*Top Container*/
+.top-container {
+  background-color: #ebf0f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/*Middle Container*/
+.middle-container {
+  background-color: #364e68;
+  padding: 100px 0;
+}
+
+.intro {
+  margin: auto;
+  width: 50%;
+}
+
+.me {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.profile p {
+  padding-bottom: 40px;
+}
+
+/*Skills*/
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-row p {
+  font-size: 0.9rem;
+}
+
+.code {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.browser {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+/*Contact*/
+.contact-me p {
+  margin: auto;
+  padding-bottom: 40px;
+  width: 40%;
+}
+
+.btn {
+  background-color: #11999E;
+  border: none;
+  border-radius: 1000px;
+  color: #ebf0f6;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #98ccd3;
+  color: #11999E;
+  text-decoration: none;
+}
+
+/*Bottom Container*/
+.bottom-container {
+  background-color: #98ccd3;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.footer-link {
+  font-weight: 500;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ebf0f6;
+  font-size: 0.75rem;
+}
+
+/*@media*/
+@media screen and (max-width: 600px) {
+  h2 {
+    padding-bottom: 40px;
+  }
+  .top-container {
+    margin-bottom: -35px;
+  }
+  .mountain {
+    display: none;
+  }
+  .footer-link {
+    font-size: .8rem;
+    padding-right: 20px;
+  }
+}
+
+/*flaticon credit to display none*/
+.flaticon {
+  display: none;
+  font-size: 0.6em;
+}
