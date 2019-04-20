@@ -129,6 +129,8 @@ hr {
   background-color: #98ccd3;
   color: #11999E;
   text-decoration: none;
+  transition-duration: .5s;
+  font-weight: 700;
 }
 
 /*Bottom Container*/
@@ -142,6 +144,7 @@ hr {
   font-weight: 500;
   padding-right: 40px;
   text-decoration: none;
+  transition-duration: .5s;
 }
 
 .copyright {
